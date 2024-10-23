@@ -1,0 +1,64 @@
+@media (max-width: 768px) {
+    .contact_section > .contact_content {
+        flex-direction: column;
+    }
+
+    .contact_section > .contact_content >.contact_left {
+width: 100%;
+text-align: center;
+    }
+    .contact_section > .contact_content >.contact_right  {
+        width: 100% !important;
+    }
+    .expertise_card_section {
+        flex-direction: column;
+    }
+
+    .skill_section {
+        margin: 0px;
+    }
+    .skill_section > .skill_content {
+        flex-direction: column;
+    }
+    .skill_section > .skill_content >.skill_right_content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .skill_section >.skill_content > .skill_cards{
+        width: 100%;
+        gap: 40px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about_section > .about_part {
+        flex-direction: column;
+    }
+    .about_section > .about_part > div > img {
+        width: 300px;
+    }
+    .about_section > .about_part > .about_content {
+        text-align: center;
+    }
+
+    .banner_section > .banner_in > .banner_content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner_section {
+        background-image: url(../assets/images/banner_tablet.png);
+    }
+    .project_section > .work_img > .work_img_card > img {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .banner_section {
+        background-image: url(../assets/images/banner_mobile.png);
+    }
+    /* .project_section > .work_img > .work_img_card > img {
+        width: 350px;
+    } */
+}
