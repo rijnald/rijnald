@@ -631,7 +631,7 @@ footer{
 }
 
 .close-btn {
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 30px;
     color: #fff;

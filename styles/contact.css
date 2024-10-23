@@ -330,7 +330,7 @@
 
 .contact_section > .contact_content >.contact_left,
 .contact_section > .contact_content >.contact_right{
-  width: 50%;
+  width: 100%;
 }
 
 .contact_section > .contact_content >.contact_left > h3 {
